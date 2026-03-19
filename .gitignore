@@ -1,0 +1,7 @@
+# Ignore environment files
+node_modules
+.env
+.env.local
+.env.prod
+dist
+coverage
