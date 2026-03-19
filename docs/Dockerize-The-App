@@ -1,0 +1,18 @@
+- [X] Dockerize the application
+
+Created a `Dockerfile` to containerize the application.
+
+The image starts from the lightweight `node:20-alpine` base image.  
+Then, the working directory is set inside the container.
+
+The package files are copied first before copying the rest of the application files. This is done to take advantage of Docker layer caching, because dependency files usually change less frequently than source code files.
+
+After that, `npm install` is executed to install all dependencies specified in the package files, along with any sub-dependencies required by them.
+
+Next, the rest of the application files are copied into the container.
+
+Port `3000` is exposed to indicate that the application listens on this port.
+
+Finally, the container uses `npm start` as the default command to run the application.
+
+This setup improves consistency between development and deployment environments.
