@@ -46,7 +46,7 @@ Result:
 The application runs successfully using a simple JavaScript server
 
 node_modules directory and package-lock.json were generated after installing dependencies
-- [ ] Dockerize the app
+- [X] Dockerize the app
 - [ ] Add Docker Compose for local development
 - [ ] Integrate PostgreSQL
 - [ ] Add Nginx reverse proxy
