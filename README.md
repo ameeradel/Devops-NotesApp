@@ -7,7 +7,7 @@ This repository documents my step-by-step journey of taking a Node.js app from l
 - [X] Initialize repository structure
 - [X] Build minimal Node.js app
 - [X] Dockerize the app
-- [ ] Add Docker Compose for local development
+- [X] Add Docker Compose for local development
 - [ ] Integrate PostgreSQL
 - [ ] Add Nginx reverse proxy
 - [ ] Create production setup
