@@ -9,7 +9,7 @@ This repository documents my step-by-step journey of taking a Node.js app from l
 - [X] Dockerize the app
 - [X] Add Docker Compose for local development
 - [X] Integrate PostgreSQL
-- [ ] Add Nginx reverse proxy
+- [X] Add Nginx reverse proxy
 - [ ] Create production setup
 - [ ] Deploy to EC2
 - [ ] Add CI/CD with GitHub Actions
