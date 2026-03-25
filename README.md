@@ -11,5 +11,5 @@ This repository documents my step-by-step journey of taking a Node.js app from l
 - [X] Integrate PostgreSQL
 - [X] Add Nginx reverse proxy
 - [X] Create production setup
-- [ ] Deploy to EC2
+- [X] Deploy to EC2
 - [ ] Add CI/CD with GitHub Actions
