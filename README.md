@@ -13,3 +13,7 @@ This repository documents my step-by-step journey of taking a Node.js app from l
 - [X] Create production setup
 - [X] Deploy to EC2
 - [X] Add CI/CD with GitHub Actions
+
+
+Errors fixed:
+fix: correct Docker Hub repository name to match production compose config"
